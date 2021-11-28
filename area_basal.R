@@ -3,7 +3,8 @@
 library(dplyr)
 
 #Importando os dados
-dados <- read.table('https://raw.githubusercontent.com/higuchip/blog/main/dados.csv', header=T, dec=',', sep=';')
+dados <- read.table('https://raw.githubusercontent.com/higuchip/blog/main/dados.csv', 
+                    header=T, dec=',', sep=';')
 
 #Verificando os dados importados
 head(dados)
